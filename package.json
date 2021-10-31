@@ -1,0 +1,22 @@
+{
+  "name": "crash-course",
+  "version": "1.0.0",
+  "description": "Node crash course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheus-fls/node-crash-course.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Matheus Lopes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheus-fls/node-crash-course/issues"
+  },
+  "homepage": "https://github.com/matheus-fls/node-crash-course#readme"
+}
