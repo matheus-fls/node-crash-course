@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/matheus-fls/node-crash-course/issues"
   },
-  "homepage": "https://github.com/matheus-fls/node-crash-course#readme"
+  "homepage": "https://github.com/matheus-fls/node-crash-course#readme",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
 }
