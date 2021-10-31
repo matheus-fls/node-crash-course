@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require("path");
 
 // basename -> Base file name
 console.log(path.basename(__filename));
@@ -13,4 +13,4 @@ console.log(path.extname(__filename));
 console.log(path.parse(__filename));
 
 //join -> Concatenate paths
-console.log(path.join(__dirname, 'test', 'hello.html'));
+console.log(path.join(__dirname, "test", "hello.html"));
