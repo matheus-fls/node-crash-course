@@ -29,11 +29,21 @@ const path = require("path");
 // );
 
 // Read file
-fs.readFile(
+// fs.readFile(
+//   path.join(__dirname, "/test", "hello.txt"),
+//   "utf-8",
+//   (err, data) => {
+//     if (err) throw err;
+//     console.log(data);
+//   }
+// );
+
+// Rename file
+fs.rename(
   path.join(__dirname, "/test", "hello.txt"),
-  "utf-8",
-  (err, data) => {
+  path.join(__dirname, "/test", "helloworld.txt"),
+  (err) => {
     if (err) throw err;
-    console.log(data);
+    console.log("File renamed...");
   }
 );
